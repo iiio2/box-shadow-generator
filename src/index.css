@@ -11,9 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
 .box {
   width: 40vw;
   height: 50vh;
   background-color: blueviolet;
   color: #fff;
+  margin: auto;
 }
